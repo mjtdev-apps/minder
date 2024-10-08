@@ -1,0 +1,35 @@
+{
+  "name": "minder",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.8.1",
+    "@typescript-eslint/parser": "^8.8.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "prettier": "^3.3.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.2",
+    "@mui/system": "^6.1.2",
+    "eslint": "^9.12.0",
+    "framer-motion": "^11.11.4",
+    "immer": "^10.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^5.4.8",
+    "zustand": "^5.0.0-rc.2"
+  }
+}
