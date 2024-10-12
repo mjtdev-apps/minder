@@ -1,7 +1,9 @@
 # Personal Reminder System - Web-Based Application
-
 ## Vision Statement
 This app is designed to gently nudge users with reminders and prompts that encourage better habits, provide wisdom, and surface time-sensitive tasks. The goal is to keep the user’s mind clear and focused during deep work, only providing a gentle guide when they are ready to engage. It prioritizes simplicity, minimalism, and efficiency, with AI-driven prioritization ensuring that only the most relevant thoughts are brought to the forefront.
+
+## Application URL
+You can access the application at [https://mjtdev-apps.github.io/minder/](https://mjtdev-apps.github.io/minder/)
 
 ## Key Features
 - **AI-Driven Categorization & Prioritization**: Automatically sorts reminders into categories like habits, wisdom, or deadlines. Priorities are adjusted over time based on relevance, urgency, and user engagement.
