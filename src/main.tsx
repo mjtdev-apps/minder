@@ -1,12 +1,11 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { CssBaseline } from '@mui/material';
+import App from './App';
+import CustomThemeProvider from './ThemeProvider'; // Wrap with theme provider
 
-const App = () => (
-  <>
-    <CssBaseline />
-    <h1>Hello, minder!</h1>
-  </>
+const Main = () => (
+  <CustomThemeProvider>
+    <App />
+  </CustomThemeProvider>
 );
 
-ReactDOM.createRoot(document.getElementById('root')!).render(<App />);
+ReactDOM.createRoot(document.getElementById('root')!).render(<Main />);
