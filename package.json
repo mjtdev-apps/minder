@@ -3,7 +3,9 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "start": "vite --strictPort --force --port 7146"
+    "start": "vite --strictPort --force --port 7146",
+    "build": "vite build",
+    "deploy": "gh-pages --nojekyll --remote mjtdev-apps -d dist"
   },
   "devDependencies": {
     "@types/bun": "latest",
@@ -17,6 +19,7 @@
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-react": "^7.37.1",
     "eslint-plugin-react-hooks": "^4.6.2",
+    "gh-pages": "^6.2.0",
     "prettier": "^3.3.3",
     "vite": "^5.4.8"
   },
